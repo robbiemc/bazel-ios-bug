@@ -115,7 +115,7 @@
 				TargetAttributes = {
 					DC88033A1E762564000DC714 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9N32PE3FSV;
+						DevelopmentTeam = TA79865BCB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -277,8 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9N32PE3FSV;
+				DEVELOPMENT_TEAM = TA79865BCB;
 				INFOPLIST_FILE = Simple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.Simple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,8 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9N32PE3FSV;
+				DEVELOPMENT_TEAM = TA79865BCB;
 				INFOPLIST_FILE = Simple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.Simple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +318,7 @@
 				DC8803541E762564000DC714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

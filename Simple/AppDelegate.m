@@ -2,9 +2,6 @@
 //  AppDelegate.m
 //  Simple
 //
-//  Created by Robbie McElrath on 3/12/17.
-//  Copyright © 2017 Robbie McElrath. All rights reserved.
-//
 
 #import "AppDelegate.h"
 

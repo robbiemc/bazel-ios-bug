@@ -1,1 +1,3 @@
 *.xcuserstate
+bazel-*
+tools/objc
