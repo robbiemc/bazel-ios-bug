@@ -3,22 +3,6 @@ minor_version: ""
 default_target_cpu: "same_as_host"
 
 default_toolchain {
-  cpu: "watchos_i386"
-  toolchain_identifier: "watchos_i386"
-}
-
-toolchain {
-  toolchain_identifier: "watchos_i386"
-  target_cpu: "watchos_i386"
-  compiler: "compiler"
-  host_system_name: "local"
-  target_system_name: "local"
-  target_libc: "local"
-  abi_version: "local"
-  abi_libc_version: "local"
-}
-
-default_toolchain {
   cpu: "ios_x86_64"
   toolchain_identifier: "ios_x86_64"
 }
@@ -51,13 +35,13 @@ toolchain {
 }
 
 default_toolchain {
-  cpu: "ios_arm64"
-  toolchain_identifier: "ios_arm64"
+  cpu: "ios_armv7s"
+  toolchain_identifier: "ios_armv7s"
 }
 
 toolchain {
-  toolchain_identifier: "ios_arm64"
-  target_cpu: "ios_arm64"
+  toolchain_identifier: "ios_armv7s"
+  target_cpu: "ios_armv7s"
   compiler: "compiler"
   host_system_name: "local"
   target_system_name: "local"
@@ -67,13 +51,13 @@ toolchain {
 }
 
 default_toolchain {
-  cpu: "tvos_x86_64"
-  toolchain_identifier: "tvos_x86_64"
+  cpu: "ios_arm64"
+  toolchain_identifier: "ios_arm64"
 }
 
 toolchain {
-  toolchain_identifier: "tvos_x86_64"
-  target_cpu: "tvos_x86_64"
+  toolchain_identifier: "ios_arm64"
+  target_cpu: "ios_arm64"
   compiler: "compiler"
   host_system_name: "local"
   target_system_name: "local"

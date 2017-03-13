@@ -1,9 +1,8 @@
 TARGET_CPUS = [
-    "ios_armv7",
     "ios_arm64",
+    "ios_armv7",
+    "ios_armv7s",
     "ios_x86_64",
-    "tvos_x86_64",
-    "watchos_i386",
 ]
 
 cc_toolchain_suite(
